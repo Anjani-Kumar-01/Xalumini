@@ -1,6 +1,10 @@
+import Button from "./components/Button";
+import SplashScreen from "./components/SplashScreen";
 const App = () => {
 	return (
-		<h1 className="text-5xl bg-blue-700">Krishn</h1>
+		<>
+			<SplashScreen/>
+		</>
 	)
 }
 export default App;

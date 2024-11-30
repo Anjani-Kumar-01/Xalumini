@@ -5,7 +5,14 @@ export default {
     "./frontend/src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#193364'
+      },
+      fontFamily: {
+        myFont: ['Diphylleia','serif']
+      }
+    },
   },
   plugins: [],
 }
