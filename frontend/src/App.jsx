@@ -1,13 +1,16 @@
 import BlurWindow from "./components/BlurWindow";
-import Onboarding1 from "./assets/image/onboarding1.png";
-import Onboarding from "./components/Onboarding";
+import Onboarding1 from "./components/Onboarding1";
+import Onboarding2 from "./components/Onboarding2";
+import Onboarding3 from "./components/Onboarding3";
 import SplashScreen from "./components/SplashScreen";
 const App = () => {
 	return (
 		<>
 			<BlurWindow >
 				{/* <SplashScreen/> */}
-				<Onboarding image={Onboarding1} text='Get In touch with your college and college friends'/>
+				{/* <Onboarding1/> */}
+				{/* <Onboarding2/> */}
+				<Onboarding3/>
 			</BlurWindow>
 		</>
 	)
