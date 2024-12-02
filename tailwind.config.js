@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#193364'
+        primary: '#FF4C14'
       },
       fontFamily: {
         myFont: ['Diphylleia','serif']
